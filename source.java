@@ -117,7 +117,7 @@ class Rental {
 
 class DBConnection {
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/vehicle_rental", "root", "Iswar@67890");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/vehicle_rental", "root", "Isaanvi@67890");
     }
 }
 
@@ -329,4 +329,5 @@ public class source {
         system.loadData();
         system.menuSystem();
     }
+
 }
